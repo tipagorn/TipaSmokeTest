@@ -1,7 +1,9 @@
 package jUnitTest;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class JUnitAssertsionTest {
@@ -24,6 +26,7 @@ public class JUnitAssertsionTest {
 		assertTrue(result);
 	
 	}
+	@Ignore
 	@Test 
 	public void testingAssertTrueDescription() {
 		assertTrue("Result is true", !result);

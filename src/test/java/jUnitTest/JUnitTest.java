@@ -26,12 +26,12 @@ public class JUnitTest {
 		
 		driver.findElement(By.xpath("//input[contains(@id, 'nav-search-submit-button')]")).click();
 		
-		driver.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a/span")).click();
+		//driver.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/div[3]/div/span/div/div/div/div/div[2]/h2/a/span")).click();
 
-		String productName = driver.findElement(By.id("productTitle")).getText();
-		String price = driver.findElement(By.id("priceblock_ourprice")).getText();
+	//	String productName = driver.findElement(By.id("productTitle")).getText();
+		//String price = driver.findElement(By.id("priceblock_ourprice")).getText();
 		
-		System.out.println(productName +" is cost " +price);
+		//System.out.println(productName +" is cost " +price);
 	}
 	
 
